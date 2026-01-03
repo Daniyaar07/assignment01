@@ -48,6 +48,7 @@ public class Rectangle {
     public double getPerimeter(){
         return (width + height) * 2;
     }
+
     public boolean contains(double px, double py) {
         return px >= x - width / 2 &&
                 px <= x + width / 2 &&
